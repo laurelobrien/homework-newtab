@@ -14,6 +14,7 @@ body {
     background-color: #fff;
     font-family: Helvetica, Arial, sans-serif;
     padding: 120px 0 50px 0;
+    position: relative;
 }
 
 h1, h2, h3, h4, h5 {
@@ -86,5 +87,15 @@ hr.notebook {
 	color: #1500a2;
 	margin: 0;
 	padding: 0;
+}
+
+.center {
+	text-align: center;
+}
+
+#Emoji_happy {
+	height: 2em;
+	margin: 0;
+	fill: #1500a2;
 }
 
