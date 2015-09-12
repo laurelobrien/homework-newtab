@@ -1,0 +1,82 @@
+/* Normalizing
+--------------------------*/
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+
+/* General Styles
+--------------------------*/
+
+body {
+    background-color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 50px 0 50px 0;
+}
+
+h1, h2, h3, h4, h5 {
+	color: #1500a2;
+}
+
+h1 {
+	text-transform: lowercase;
+	font-weight: 800;
+	font-size: 4em;
+	letter-spacing: -0.05em;
+	display: block;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 2em;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+#listwrapper {
+	display: flex;
+  	justify-content: space-between;
+}
+
+.list {
+	display: inline-block;
+	clear: both;
+	width: 17%;
+}
+
+
+/* Lists
+--------------------------*/
+
+hr.notebook {
+	width: 100%;
+	border-top: none;
+	border-bottom: solid 2px #1500a2;
+	vertical-align: bottom;
+	margin-top: 2em;
+}
+
+div.list ul li:nth-child(2n) {
+	margin-top: 0;
+}
+
+h2 {
+	margin-bottom: 60px;
+}
+
+.list ul li {
+}
+
+.list li p {
+	font-size: 1em;
+	color: #1500a2;
+	margin: 0;
+	padding: 0;
+}
+
