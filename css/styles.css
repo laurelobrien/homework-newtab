@@ -6,31 +6,35 @@ ul {
 }
 
 
+
 /* General Styles
 --------------------------*/
 
 body {
     background-color: #fff;
     font-family: Helvetica, Arial, sans-serif;
-    padding: 50px 0 50px 0;
+    padding: 120px 0 50px 0;
 }
 
 h1, h2, h3, h4, h5 {
 	color: #1500a2;
+	margin: 0;
 }
 
 h1 {
 	text-transform: lowercase;
-	font-weight: 800;
+	font-weight: 900;
 	font-size: 4em;
 	letter-spacing: -0.05em;
 	display: block;
+	margin-bottom: 100px;
 }
 
 h2 {
 	text-transform: uppercase;
 	font-weight: 400;
 	font-size: 2em;
+	font-family: 'Anonymous Pro';
 }
 
 .container {
@@ -59,15 +63,19 @@ hr.notebook {
 	border-top: none;
 	border-bottom: solid 2px #1500a2;
 	vertical-align: bottom;
-	margin-top: 2em;
 }
 
-div.list ul li:nth-child(2n) {
-	margin-top: 0;
+.list h2 {
+	margin-bottom: 5px;
 }
 
-h2 {
+.list h3 {
 	margin-bottom: 60px;
+	font-weight: 300;
+}
+
+.list ul {
+	margin-top: 60px;
 }
 
 .list ul li {
