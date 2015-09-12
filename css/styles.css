@@ -13,7 +13,7 @@ ul {
 body {
     background-color: #fff;
     font-family: Helvetica, Arial, sans-serif;
-    padding: 100px 0 0 0;
+    padding: 140px 0 0 0;
 }
 
 h1, h2, h3, h4, h5 {
@@ -27,7 +27,7 @@ h1 {
 	font-size: 4em;
 	letter-spacing: -0.05em;
 	display: block;
-	margin-bottom: 60px;
+	margin-bottom: 70px;
 }
 
 h2 {
@@ -50,7 +50,6 @@ h2 {
 
 .list {
 	display: inline-block;
-	clear: both;
 	width: 17%;
 }
 
