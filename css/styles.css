@@ -13,8 +13,7 @@ ul {
 body {
     background-color: #fff;
     font-family: Helvetica, Arial, sans-serif;
-    padding: 120px 0 50px 0;
-    position: relative;
+    padding: 100px 0 0 0;
 }
 
 h1, h2, h3, h4, h5 {
@@ -28,7 +27,7 @@ h1 {
 	font-size: 4em;
 	letter-spacing: -0.05em;
 	display: block;
-	margin-bottom: 100px;
+	margin-bottom: 60px;
 }
 
 h2 {
@@ -39,7 +38,7 @@ h2 {
 }
 
 .container {
-	width: 80%;
+	max-width: 80%;
 	margin: 0 auto;
 	background-color: #fff;
 }
@@ -53,6 +52,10 @@ h2 {
 	display: inline-block;
 	clear: both;
 	width: 17%;
+}
+
+.center {
+	text-align: center;
 }
 
 
@@ -89,13 +92,12 @@ hr.notebook {
 	padding: 0;
 }
 
-.center {
-	text-align: center;
+.list li p:hover {
+	text-decoration: line-through;
 }
 
-#Emoji_happy {
+#emoji-happy {
 	height: 2em;
 	margin: 0;
 	fill: #1500a2;
 }
-
